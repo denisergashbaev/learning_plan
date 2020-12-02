@@ -31,8 +31,8 @@
 
 ## Kubernetes
 
-* [] <https://youtu.be/X48VuDVv0do>
-* [] <https://kubernetes.io/docs/concepts/>
+* [ ] <https://youtu.be/X48VuDVv0do>
+* [ ] <https://kubernetes.io/docs/concepts/>
 
 ## Other stuff (later)
 
