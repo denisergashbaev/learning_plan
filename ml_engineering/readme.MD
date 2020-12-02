@@ -2,13 +2,14 @@
 
 ## Go
 
-* [A Tour of Go](tour.golang.org)
+* [A Tour of Go](https://tour.golang.org)
 
   * [x] Basics
 
     * [x] [fibonnaci](go/exercises/exercise-fibonnaci-closure.go)
     * [x] [maps](go/exercises/exercise-maps.go)
     * [x] [slices](go/exercises/exercise-slices.go)
+    * [x] [stringer](go/exercises/exercise-stringer.go)
 
   * [ ] Methods and Interfaces
   * [ ] Concurrency

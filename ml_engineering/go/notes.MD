@@ -101,4 +101,40 @@ func testEq(a, b []Type) bool {
     return true
 }
 
+// Methods //
+/* Methods are functions with a special
+_receiver_ argument. Receiver appears between
+func keyword and the method name (here: (v Vertex))
+*/
+
+type Vertex struct {
+    X, Y float64
+}
+
+// method with a _value_ receiver
+func (v Vertex) Abs() float64 {
+    return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+// method with a _pointer_ receiver. 
+// (* undoes &)
+func (v *Vertex) Scale(f float64) {
+    v.X = v.X * f
+    v.Y = v.Y * f
+}
+
+// this is a function
+func Abs(v Vertex) float64 {
+    return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+```
+
+[What is the meaning of '*' and '&' in Golang?
+](https://stackoverflow.com/a/45993495/256002)
+
+```go
+a := 5 // a points to value 5
+a_copy := a // copy of 5
+p := &a // holds memory address of a
+*p = 6 // changes val of a=6
 ```
