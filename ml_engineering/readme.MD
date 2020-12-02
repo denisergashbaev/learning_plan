@@ -36,7 +36,7 @@
 
 ## Other stuff (later)
 
-* appservice
+* ~~appservice~~
 * terraform
 * postgres
 * rest api
