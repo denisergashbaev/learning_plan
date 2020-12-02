@@ -1,0 +1,8 @@
+# Additional resources
+
+[String formatting](https://gobyexample.com/string-formatting)
+
+[Slices intro](https://blog.golang.org/slices-intro)
+[Arrays vs slices](https://www.sohamkamani.com/golang/arrays-vs-slices/)
+
+[50 shades of Go](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
