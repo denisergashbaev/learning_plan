@@ -9,6 +9,7 @@
 * Keeping up-to-date with recent developments
   * [r/reinforcementlearning](https://www.reddit.com/r/reinforcementlearning/)
   * [BAIR blog](https://bair.berkeley.edu/blog/?refresh=1)
+  * [RL weekly](https://www.endtoend.ai/rl-weekly)
   * YouTube channels:
     * [Yannic Kilcher](https://www.youtube.com/c/YannicKilcher/videos)
     * [Henry AI Labs](https://www.youtube.com/channel/UCHB9VepY6kYvZjj0Bgxnpbw)
