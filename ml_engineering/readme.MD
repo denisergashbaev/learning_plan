@@ -11,12 +11,13 @@
     * [x] [maps](go/exercises/exercise-maps.go)
     * [x] [slices](go/exercises/exercise-slices.go)
 
-  * [ ] Methods and Interfaces
+  * [x] Methods and Interfaces
 
     * [x] [stringer](go/exercises/exercise-stringer.go)
     * [x] [errors](go/exercises/exercise-errors.go)
     * [x] [reader](go/exercises/exercise-reader.go)
     * [x] [rot-reader](go/exercises/exercise-rot-reader.go)
+    * [x] [images](go/exercises/exercise-images.go)
 
   * [ ] Concurrency
 
