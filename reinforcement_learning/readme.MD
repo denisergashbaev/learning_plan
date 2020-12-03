@@ -1,12 +1,12 @@
 # Reinforcement Learning
 
 * [ ] [Reinforcement Learning Application to Healthcare](https://towardsdatascience.com/a-review-of-recent-reinforcment-learning-applications-to-healthcare-1f8357600407)
+  * [summary](summaries/rl-applications-healthcare.MD)
 * [ ] Papers
   * [ ] Reinforcement Learning in Healthcare: A Survey
-  * [ ] A Reinforcement Learning System to Encourage
-Physical Activity in Diabetes Patients
+  * [ ] A Reinforcement Learning System to Encourage Physical Activity in Diabetes Patients
   * [ ] A Comprehensive Survey on Safe Reinforcement Learning
-  * [ ] Evaluating Reinforcement Learning Algorithms
+  * [ ] Evaluating Reinforcement Learning Algorithms in Observational Health Settings
   * [ ] Deconfounding Reinforcement Learning
   * [ ] Reinforcement learning and causal models
   * [ ] Learning Optimal Policies from Observational Data
