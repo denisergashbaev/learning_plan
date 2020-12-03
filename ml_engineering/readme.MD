@@ -6,10 +6,12 @@
 
   * [x] Basics
 
+    * [x] [loops-and-functions](go/exercises/exercise-loops-and-functions.go)
     * [x] [fibonnaci](go/exercises/exercise-fibonnaci-closure.go)
     * [x] [maps](go/exercises/exercise-maps.go)
     * [x] [slices](go/exercises/exercise-slices.go)
     * [x] [stringer](go/exercises/exercise-stringer.go)
+    * [x] [errors](go/exercises/exercise-errors.go)
 
   * [ ] Methods and Interfaces
   * [ ] Concurrency
