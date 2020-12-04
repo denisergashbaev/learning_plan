@@ -20,6 +20,7 @@
     * [x] [images](go/exercises/exercise-images.go)
 
   * [ ] Concurrency
+    * [x] [exercise-equivalent-binary-trees](go/exercises/exercise-equivalent-binary-trees.go)
 
 * [Gin Framework](github.com/gin-gonic/gin)
 

@@ -8,3 +8,6 @@ bit shifting and why it is useful (<< >>)
 <https://tour.golang.org/basics/11>
 
 stack and heap
+
+* what is evaluation vs execution: https://tour.golang.org/concurrency/1
+* same "address space": https://tour.golang.org/concurrency/1

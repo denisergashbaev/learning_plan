@@ -2,8 +2,8 @@
 
 ```go
 import (
-	"fmt"
-	"math/rand"
+    "fmt"
+    "math/rand"
 )
 
 //sets the seed
@@ -138,3 +138,5 @@ a_copy := a // copy of 5
 p := &a // holds memory address of a
 *p = 6 // changes val of a=6
 ```
+
+The loop ``for i := range`` c receives values from the channel repeatedly until it is closed.
