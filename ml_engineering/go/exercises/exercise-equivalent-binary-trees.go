@@ -26,20 +26,18 @@ func Walk(t *tree.Tree, ch chan int) {
 // Same determines whether the trees
 // t1 and t2 contain the same values.
 func Same(t1, t2 *tree.Tree) bool {
-	ch1 := make(chan int)
-	go Walk(t1, ch1)
-	ch1_vals := make([]int, 0)
-	for v := range ch1 {
-		ch1_vals = append(ch1_vals, v)
+	// Walk over the tree and return the collected values
+	f := func(t *tree.Tree) []int {
+		ch := make(chan int)
+		go Walk(t, ch)
+		ch_vals := make([]int, 0)
+		for v := range ch {
+			ch_vals = append(ch_vals, v)
+		}
+		return ch_vals
 	}
 
-	ch2 := make(chan int)
-	go Walk(t2, ch2)
-	ch2_vals := make([]int, 0)
-	for v := range ch2 {
-		ch2_vals = append(ch2_vals, v)
-	}
-
+	// slice equality
 	return func(a, b []int) bool {
 		if len(a) != len(b) {
 			return false
@@ -50,7 +48,7 @@ func Same(t1, t2 *tree.Tree) bool {
 			}
 		}
 		return true
-	}(ch1_vals, ch2_vals)
+	}(f(t1), f(t2))
 }
 
 func main() {
