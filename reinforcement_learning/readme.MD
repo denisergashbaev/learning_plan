@@ -1,6 +1,6 @@
 # Reinforcement Learning
 
-* [ ] [Reinforcement Learning Application to Healthcare](https://towardsdatascience.com/a-review-of-recent-reinforcment-learning-applications-to-healthcare-1f8357600407)
+* [x] [Reinforcement Learning Application to Healthcare](https://towardsdatascience.com/a-review-of-recent-reinforcment-learning-applications-to-healthcare-1f8357600407)
   * [summary](summaries/rl-applications-healthcare.MD)
 * [ ] Papers
   * [ ] Reinforcement Learning in Healthcare: A Survey
