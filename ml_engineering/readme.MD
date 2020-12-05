@@ -23,7 +23,9 @@
     * [x] [exercise-equivalent-binary-trees](go/exercises/exercise-equivalent-binary-trees.go)
 
 * [Gin Framework](github.com/gin-gonic/gin)
+  * [ ] Read documentation
 
+* [Go database/sql tutorial](http://go-database-sql.org/index.html)
   * [ ] Read documentation
 
 ## Azure
@@ -48,6 +50,7 @@
 * ~~appservice~~
 * terraform
 * postgres
-* rest api
 * spark
+* rest api
+* MLFlow
 * https://github.com/databrickslabs/cicd-templates
