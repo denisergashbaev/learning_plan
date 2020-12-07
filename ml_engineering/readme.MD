@@ -19,8 +19,9 @@
     * [x] [rot-reader](go/exercises/exercise-rot-reader.go)
     * [x] [images](go/exercises/exercise-images.go)
 
-  * [ ] Concurrency
+  * [x] Concurrency
     * [x] [exercise-equivalent-binary-trees](go/exercises/exercise-equivalent-binary-trees.go)
+    * [x] [exercise-web-crawler](go/exercises/exercise-web-crawler.go)
 
 * [Gin Framework](github.com/gin-gonic/gin)
   * [ ] Read documentation
