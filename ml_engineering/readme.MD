@@ -39,7 +39,9 @@
 
 ## Docker
 
-* [ ] Read documentation
+* [ ] [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]
+](https://www.youtube.com/watch?v=3c-iBn73dDE&t=288s&ab_channel=TechWorldwithNana)
+  * [my notes](docker/docker.MD)
 
 ## Kubernetes
 
