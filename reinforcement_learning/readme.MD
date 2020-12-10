@@ -14,7 +14,7 @@
   * [ ] Improving the accuracy of medical diagnosis with causal machine learning
   * [ ] Causal inference and counterfactual prediction in machine learning for actionable healthcare
 
-* [ ] [Reinforcement Learning in Healthcare: Challenges and Promise](https://www.youtube.com/watch?v=OsGxPVYR2xo)
+* [x] [Reinforcement Learning in Healthcare: Challenges and Promise](https://www.youtube.com/watch?v=OsGxPVYR2xo)
   * [summary](summaries/rl-in-healthcare-challenges-and-promise.MD)
 * [ ] [Causal Reinforcement Learning](https://crl.causalai.net/)
 * [ ] Book: Observation and Experiment. An Introduction to Causal Inference by Paul R. Rosenbaum
