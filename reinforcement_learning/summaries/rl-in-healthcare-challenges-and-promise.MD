@@ -9,7 +9,21 @@
     * One action alone does not define a patient's success in the advanced future. There are many other different modalities (other treatments) that play a role in the long-term success
     * However, we use it as a starting point, by assuming that if we select the same treatment for our patient as the treatment for another patient that was doing well 21 days into the treatment, then we are off to a good start.
   * 15:34 - Combined model trained end-to-end using automatic differentiation  
-    ![Combined model](images/combined-model.png?raw=true "Combined model")
+    ![Combined model](images/combined-model.png?raw=true "Combined model"|width=400)
     * Kernel -- neighborhood-based approach (does the viral go down immediately or stays low over a longer period of time)
     * POMDP -- our model's action preference based on limited "textbook" knowledge
     * Patient statistics is used to determine which action to pick -- Kernel or POMDP
+  * 16:00 Does this model work? Policy-mixture policy performs the best, preferring POMDP around 20-30% of the time.
+    * Actions: 312 common drug combinations
+    * RL algorithm: **not specified** (TODO: look up)
+    * 17:39 POMDP is chose when histories are long and the neighbor distances are big, which matches the intuition
+  * 18:30 Current work: Predicting results of the actions
+  * 21:23 Applied to Sepsis management in the ICU
+    * Initially, the problem looks the similar to the HIV treatment. Not quite, in HIV we want to reduce the integral of the viral load, in sepsis management we focus on whether the patient survives at the end (not that much whether their blood pressure was at a certain level)
+    * Focusing on mortality as the outcome of the treatment makes it much harder to evaluate
+  * 26:40 We evaluate on the test dataset by finding a group of patients whose treatment matches the predicted treatment, that makes your [test] dataset smaller
+  * 30:58 think of AI as complimentary assistance for doctors (not a replacement)
+  * Perfection is the enemy of good  
+Questions:
+17:39 When Kernel vs POMDP are chosen: Distance to 2nd quantile to your neighbors
+20:58 Interpolating the model allows us to get better results
