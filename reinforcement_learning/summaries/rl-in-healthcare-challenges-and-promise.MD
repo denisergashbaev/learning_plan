@@ -9,7 +9,7 @@
     * One action alone does not define a patient's success in the advanced future. There are many other different modalities (other treatments) that play a role in the long-term success
     * However, we use it as a starting point, by assuming that if we select the same treatment for our patient as the treatment for another patient that was doing well 21 days into the treatment, then we are off to a good start.
   * 15:34 - Combined model trained end-to-end using automatic differentiation  
-    ![Combined model](images/combined-model.png?raw=true "Combined model" | width=400)
+    ![Combined model](images/combined-model.png?raw=true | width=400)
     * Kernel -- neighborhood-based approach (does the viral go down immediately or stays low over a longer period of time)
     * POMDP -- our model's action preference based on limited "textbook" knowledge
     * Patient statistics is used to determine which action to pick -- Kernel or POMDP
