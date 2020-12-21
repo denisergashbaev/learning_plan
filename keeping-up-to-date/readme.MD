@@ -3,3 +3,4 @@
 * [The Sequence of AI Knowledge](https://thesequence.substack.com/)
 * [DeepLearning.ai: The Batch](https://www.deeplearning.ai/thebatch/)
 * [DeepAI](https://deepai.org/)
+* [RL Weekly](https://www.endtoend.ai/rl-weekly)
