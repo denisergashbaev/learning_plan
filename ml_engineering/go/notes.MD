@@ -18,12 +18,12 @@ fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
 // if function parameters share the same type, we can the 
 // type from all but the last
 func add(x, y int) int {
-	return x + y
+    return x + y
 }
 
 // function can return multiple results
 func swap(x, y string) (string, string) {
-	return y, x
+    return y, x
 }
 
 a, b := swap("hello", "world")
@@ -47,8 +47,8 @@ notice how the variable type is in the end
 var c, python, java bool
 
 func main() {
-	var i int
-	fmt.Println(i, c, python, java)
+    var i int
+    fmt.Println(i, c, python, java)
 }
 
 /* variables with initializers,
@@ -58,8 +58,8 @@ the variable will take the type of initializer
 var i, j int = 1, 2
 
 func main() {
-	var c, python, java = true, false, "no!"
-	fmt.Println(i, j, c, python, java)
+    var c, python, java = true, false, "no!"
+    fmt.Println(i, j, c, python, java)
 }
 
 /*
@@ -67,8 +67,8 @@ Only inside of functions can we use the := assignment
 statement (instead of var with implicit type) 
 */
 func main() {
-	var i, j int = 1, 2
-	c, python, java := true, false, "no!"
+    var i, j int = 1, 2
+    c, python, java := true, false, "no!"
 }
 
 /*

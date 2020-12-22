@@ -25,6 +25,20 @@
 
 * [Gin Framework](github.com/gin-gonic/gin)
   * [ ] Read documentation
+  * [ ] [Golang / Go Gin Framework Crash Course](https://www.youtube.com/watch?v=qR0WnWL2o1Q&list=PL3eAkoh7fypr8zrkiygiY1e9osoqjoV9w&ab_channel=PragmaticReviews)
+    * [x] Episode 1
+    * [x] Episode 2
+    * [ ] Episode 3
+    * ...
+* Videos on coding in Go
+  * [ ] [GopherCon EU 2018: Peter Bourgon - Best Practices for Industrial Programming
+](https://www.youtube.com/watch?v=PTE4VJIdHPg&feature=emb_title&ab_channel=GopherConEurope)
+  * [x] [7 common mistakes in Go and when to avoid them by Steve Francia (Docker)
+](https://youtu.be/29LLRKIL_TI)
+  * [x] [GopherCon 2018: Kat Zien - How Do You Structure Your Go Apps
+](https://www.youtube.com/watch?v=oL6JBUk6tj0&feature=emb_title&ab_channel=GopherAcademy)
+  * [ ] [GopherCon 2017: Mitchell Hashimoto - Advanced Testing with Go
+](https://www.youtube.com/watch?v=8hQG7QlcLBk&feature=emb_title&ab_channel=GopherAcademy)
 
 * [Go database/sql tutorial](http://go-database-sql.org/index.html)
   * [ ] Read documentation
