@@ -5,14 +5,12 @@
 * [A Tour of Go](https://tour.golang.org)
 
   * [x] Basics
-
     * [x] [loops-and-functions](go/exercises/exercise-loops-and-functions.go)
-    * [x] [fibonnaci](go/exercises/exercise-fibonnaci-closure.go)
+    * [x] [fibonacci](go/exercises/exercise-fibonacci-closure.go)
     * [x] [maps](go/exercises/exercise-maps.go)
     * [x] [slices](go/exercises/exercise-slices.go)
 
   * [x] Methods and Interfaces
-
     * [x] [stringer](go/exercises/exercise-stringer.go)
     * [x] [errors](go/exercises/exercise-errors.go)
     * [x] [reader](go/exercises/exercise-reader.go)

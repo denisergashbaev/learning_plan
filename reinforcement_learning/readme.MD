@@ -4,6 +4,9 @@
   * [summary](summaries/rl-applications-healthcare.MD)
 * [ ] Papers
   * [ ] Reinforcement Learning in Healthcare: A Survey
+    * [ ] First read done, will be making notes
+  * [ ] [Power Constrained Bandit](https://arxiv.org/pdf/2004.06230.pdf)
+    * [summary](summaries/power-constrained-bandit.MD)
   * [ ] A Comprehensive Survey on Safe Reinforcement Learning
   * [ ] A Reinforcement Learning System to Encourage Physical Activity in Diabetes Patients
   * [ ] Evaluating Reinforcement Learning Algorithms in Observational Health Settings
