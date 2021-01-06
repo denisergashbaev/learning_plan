@@ -2,7 +2,23 @@
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /videos                   --> main.main.func1 (5 handlers)
-[GIN-debug] POST   /videos                   --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] Loaded HTML Templates (4): 
+	- footer.html
+	- header.html
+	- index.html
+	- 
+
+[GIN-debug] GET    /api/videos               --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /api/videos               --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /view/videos              --> example.com/hello/ml_engineering/go/golang-gin-poc/controller.VideoController.ShowAll-fm (5 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
-::1 - [22 Dec 20 11:05 CET] GET /videos 200 379.048µs 
+::1 - [06 Jan 21 12:05 CET] POST /api/videos 400 989.81µs 
+::1 - [06 Jan 21 12:05 CET] POST /api/videos 200 598.622µs 
+::1 - [06 Jan 21 12:05 CET] GET /view/videos 200 1.104143ms 
+::1 - [06 Jan 21 12:06 CET] GET /view/videos 401 20.872µs 
+::1 - [06 Jan 21 12:07 CET] GET /view/videos 200 1.065317ms 
+::1 - [06 Jan 21 12:07 CET] GET /favicon.ico 401 10.913µs 
+::1 - [06 Jan 21 12:07 CET] GET /favicon.ico 404 321.532µs 
+::1 - [06 Jan 21 12:08 CET] GET /favicon.ico 404 323.285µs 

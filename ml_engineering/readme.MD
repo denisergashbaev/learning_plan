@@ -28,6 +28,12 @@
     * [x] Episode 2
     * [ ] Episode 3
     * ...
+
+* Structuring Applications in Go
+  * [Structuring Applications in Go](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091#9e7e)
+  * [Custom Handlers and Avoiding Globals in Go Web Applications](https://blog.questionable.services/article/custom-handlers-avoiding-globals/)
+  * [Organising Database Access in Go](https://www.alexedwards.net/blog/organising-database-access)
+
 * Videos on coding in Go
   * [ ] [GopherCon EU 2018: Peter Bourgon - Best Practices for Industrial Programming
 ](https://www.youtube.com/watch?v=PTE4VJIdHPg&feature=emb_title&ab_channel=GopherConEurope)
@@ -39,8 +45,13 @@
 ](https://www.youtube.com/watch?v=8hQG7QlcLBk&feature=emb_title&ab_channel=GopherAcademy)
 
 * [Go database/sql tutorial](http://go-database-sql.org/index.html)
-  * [ ] Read documentation
-
+  * [x] Read documentation
+  * [x] [Postgres with Go tutorial](https://medium.com/swlh/building-a-restful-api-with-go-and-postgresql-494819f51810)
+    * [code](go/go-postgres)
+  
+  * [ ][Build a web application in Go (golang)](https://www.sohamkamani.com/golang/how-to-build-a-web-application/)
+    * [code](go/go-web-application)
+  
 ## Azure
 
 * [ ] Read documentation
@@ -65,7 +76,7 @@
 
 * ~~appservice~~
 * terraform
-* postgres
+* postgres database intro
 * spark
 * rest api
 * MLFlow
