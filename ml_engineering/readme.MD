@@ -23,10 +23,10 @@
 
 * [Gin Framework](github.com/gin-gonic/gin)
   * [ ] Read documentation
-  * [ ] [Golang / Go Gin Framework Crash Course](https://www.youtube.com/watch?v=qR0WnWL2o1Q&list=PL3eAkoh7fypr8zrkiygiY1e9osoqjoV9w&ab_channel=PragmaticReviews)
+  * [x] [Golang / Go Gin Framework Crash Course](https://www.youtube.com/watch?v=qR0WnWL2o1Q&list=PL3eAkoh7fypr8zrkiygiY1e9osoqjoV9w&ab_channel=PragmaticReviews)
     * [x] Episode 1
     * [x] Episode 2
-    * [ ] Episode 3
+    * [x] Episode 3
     * ...
 
 * Structuring Applications in Go
@@ -50,7 +50,7 @@
     * [code](go/go-postgres)
   
   * [ ][Build a web application in Go (golang)](https://www.sohamkamani.com/golang/how-to-build-a-web-application/)
-    * [code](go/go-web-application)
+    * ~~[code](go/go-web-application)~~
   
 ## Azure
 
